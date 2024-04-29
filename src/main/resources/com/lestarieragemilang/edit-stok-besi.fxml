@@ -24,7 +24,7 @@
                </font></Button>
             <HBox layoutX="235.0" layoutY="137.0" prefHeight="368.0" prefWidth="500.0" style="-fx-background-color: #2A2438;" AnchorPane.leftAnchor="235.0" AnchorPane.topAnchor="137.0">
                <children>
-                  <VBox alignment="CENTER" prefHeight="368.0" prefWidth="200.0" spacing="18.0">
+                  <VBox alignment="CENTER" prefHeight="368.0" prefWidth="220.0" spacing="18.0">
                      <children>
                         <Label text="ID Kategori" textFill="WHITE" />
                         <Label layoutX="63.0" layoutY="185.0" text="Merek" textFill="WHITE" />

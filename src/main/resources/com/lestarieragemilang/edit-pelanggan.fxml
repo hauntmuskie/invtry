@@ -12,7 +12,7 @@
    <children>
       <AnchorPane prefHeight="585.0" prefWidth="970.0">
          <children>
-            <Label layoutX="108.0" layoutY="49.0" text="Stok Besi" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <Label layoutX="108.0" layoutY="49.0" text="Pelanggan" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
                <font>
                   <Font size="28.0" />
                </font>
@@ -21,19 +21,17 @@
             <Button layoutX="639.0" layoutY="515.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" text="Hapus" AnchorPane.rightAnchor="235.0">
                <font>
                   <Font name="System Bold" size="12.0" />
-               </font></Button>
+               </font>
+            </Button>
             <HBox layoutX="235.0" layoutY="137.0" prefHeight="368.0" prefWidth="500.0" style="-fx-background-color: #2A2438;" AnchorPane.leftAnchor="235.0" AnchorPane.topAnchor="137.0">
                <children>
                   <VBox alignment="CENTER" prefHeight="368.0" prefWidth="220.0" spacing="18.0">
                      <children>
-                        <Label text="ID Kategori" textFill="WHITE" />
-                        <Label layoutX="63.0" layoutY="185.0" text="Merek" textFill="WHITE" />
-                        <Label layoutX="63.0" layoutY="194.0" text="Jenis" textFill="WHITE" />
-                        <Label layoutX="63.0" layoutY="203.0" text="Ukuran" textFill="WHITE" />
-                        <Label layoutX="63.0" layoutY="211.0" text="Harga Beli" textFill="WHITE" />
-                        <Label layoutX="63.0" layoutY="220.0" text="Harga Jual" textFill="WHITE" />
-                        <Label layoutX="63.0" layoutY="229.0" text="Stok" textFill="WHITE" />
-                        <Label layoutX="81.0" layoutY="237.0" text="Satuan" textFill="WHITE" />
+                        <Label text="ID Pelanggan" textFill="WHITE" />
+                        <Label layoutX="63.0" layoutY="185.0" text="Nama Pelanggan" textFill="WHITE" />
+                        <Label layoutX="63.0" layoutY="194.0" text="Kontak" textFill="WHITE" />
+                        <Label layoutX="63.0" layoutY="203.0" text="Alamat" textFill="WHITE" />
+                        <Label layoutX="101.0" layoutY="239.0" text="Email" textFill="WHITE" />
                      </children>
                   </VBox>
                   <VBox alignment="CENTER" prefHeight="368.0" prefWidth="200.0" spacing="10.0">
@@ -42,10 +40,7 @@
                         <TextField layoutX="10.0" layoutY="181.0" />
                         <TextField layoutX="10.0" layoutY="194.0" />
                         <TextField layoutX="10.0" layoutY="207.0" />
-                        <TextField layoutX="10.0" layoutY="219.0" />
-                        <TextField layoutX="10.0" layoutY="252.0" />
-                        <TextField layoutX="10.0" layoutY="269.0" />
-                        <TextField layoutX="10.0" layoutY="287.0" />
+                        <TextField layoutX="10.0" layoutY="235.0" />
                      </children>
                   </VBox>
                </children>
