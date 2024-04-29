@@ -1,3 +1,5 @@
 com\lestarieragemilang\App.class
-module-info.class
 com\lestarieragemilang\SceneHandler.class
+module-info.class
+com\lestarieragemilang\Database.class
+com\lestarieragemilang\Product.class
