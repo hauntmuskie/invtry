@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="585.0" prefWidth="970.0">
@@ -23,9 +22,17 @@
             <Button layoutX="851.0" layoutY="83.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="96.0" text="Button" AnchorPane.rightAnchor="23.0" />
             <TableView layoutX="314.0" layoutY="147.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <columns>
-                  <TableColumn prefWidth="75.0" text="C1" />
-                  <TableColumn prefWidth="75.0" text="C2" />
+                  <TableColumn prefWidth="75.0" text="Tanggal" />
+                  <TableColumn prefWidth="75.0" text="ID Penerimaan" />
+                  <TableColumn prefWidth="75.0" text="ID Kategori" />
+                  <TableColumn prefWidth="75.0" text="Merek" />
+                  <TableColumn prefWidth="75.0" text="Jenis" />
+                  <TableColumn prefWidth="75.0" text="Jumlah" />
+                  <TableColumn prefWidth="75.0" text="Kondisi" />
                </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
             </TableView>
          </children>
       </AnchorPane>
